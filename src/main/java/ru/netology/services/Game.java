@@ -1,13 +1,10 @@
 package ru.netology.services;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Game {
-    private final List<Player> registeredPlayers;
-    private final Map<String, Player> playersMap;
+    public final List<Player> registeredPlayers;
+    public final Map<String, Player> playersMap;
 
     public Game() {
         registeredPlayers = new ArrayList<>();
